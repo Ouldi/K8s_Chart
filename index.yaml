@@ -1,30 +1,19 @@
 apiVersion: v1
 entries:
-  postgresql:
-  - apiVersion: v1
-    appVersion: 11.7.0
-    created: "2020-04-16T15:05:41.94634055Z"
-    description: Chart for PostgreSQL, an object-relational database management system
-      (ORDBMS) with an emphasis on extensibility and on standards-compliance.
-    digest: 745953ffac81f065b4681821d409d08215a17b3b2f45f064870cca4113161450
-    home: https://www.postgresql.org/
-    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-110x117.png
-    keywords:
-    - postgresql
-    - postgres
-    - database
-    - sql
-    - replication
-    - cluster
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    - email: cedric@desaintmartin.fr
-      name: desaintmartin
-    name: postgresql
-    sources:
-    - https://github.com/bitnami/bitnami-docker-postgresql
+  wikijs:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-04-17T13:15:17.591554343Z"
+    dependencies:
+    - condition: postgres.enabled
+      name: postgresql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 8.4.3
+    description: A Helm chart for Kubernetes
+    digest: b7db321dd688ff325455c8bcddce8fd5fbf567c6e5d594b6728edefe63050ea8
+    name: wikijs
+    type: application
     urls:
-    - charts/postgresql-8.4.3.tgz
-    version: 8.4.3
-generated: "2020-04-16T15:05:41.936772614Z"
+    - https://walidshl.github.io/K8s_Chart/wikijs-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-17T13:15:17.557084522Z"
