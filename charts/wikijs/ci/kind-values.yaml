@@ -27,5 +27,5 @@ postgresql:
  postgresqlUsername: postgres
  postgresqlPassword: postgres
  postgresqlDatabase: wikijs
- persistance:
+ persistence:
   enabled: false
