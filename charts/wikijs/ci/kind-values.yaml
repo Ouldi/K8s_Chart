@@ -29,4 +29,3 @@ postgresql:
  postgresqlDatabase: wikijs
  persistance:
   enabled: false
-  
