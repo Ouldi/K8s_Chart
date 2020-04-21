@@ -1,7 +1,7 @@
 apiVersion: v2
 name: wikijs
 description: A Helm chart for Kubernetes
-
+home: https://walidshl.github.io/K8s_Chart/
 # A chart can be either an 'application' or a 'library' chart.
 #
 # Application charts are a collection of templates that can be packaged into versioned archives
