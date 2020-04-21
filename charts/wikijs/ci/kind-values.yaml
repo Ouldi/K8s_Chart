@@ -28,4 +28,4 @@ postgresql:
  postgresqlPassword: postgres
  postgresqlDatabase: wikijs
  persistence:
-  enabled: true
+  enabled: false
